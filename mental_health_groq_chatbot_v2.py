@@ -8,7 +8,8 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.docstore.document import Document
 from PyPDF2 import PdfReader
 from langchain_community.chat_models import ChatOpenAI
-
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # Set Groq API keys
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
