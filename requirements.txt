@@ -4,3 +4,5 @@ groq
 transformers
 sentence-transformers
 faiss-cpu
+langchain
+langchain-community
